@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+</head>
+<body>
+    <style>
+        *{
+           box-sizing: border-box;
+           margin: 0;
+           padding: 0;
+           }
+       .parent
+       {
+           border: 2px solid red;
+           height: 90vh;
+           display: flex;
+           flex-direction: row;
+           justify-content: center;
+           align-items: center;
+           background-color: aqua;
+           flex-wrap: nowrap;
+       }
+      
+       #b1
+       {
+        
+           align-content: center;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 500px;
+            width: 400px;
+            background-color: blue;
+            
+        }
+        #b2
+       {
+        
+           /* align-content: center; */
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 500px;
+            width: 400px;
+            background-color: gray;
+            
+       }
+       #b3
+       {
+        
+           /* align-content: center; */
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 500px;
+            width: 400px;
+            background-color: green;
+            
+       }
+   </style>
+   <body>
+    <div class="parent">
+       <div id="b1">
+            Basic<br><br>
+            $50/month<br>
+            Feature 1<br>
+            Feature 1<br>
+            Feature 1<br>
+            Feature 1<br>
+            Feature 1
+       </div>
+
+       <div id="b2">
+            Premium<br><br>
+            $50/month<br>
+            Feature 1<br>
+            Feature 1<br>
+            Feature 1<br>
+            Feature 1<br>
+            Feature 1
+       </div>
+
+       <div id="b3">
+            Pro<br><br>
+            $50/month<br>
+            Feature 1<br>
+            Feature 1<br>
+            Feature 1<br>
+            Feature 1<br>
+            Feature 1
+       </div>
+    </div>
+   </body>
+   </html>
+</body>
+</html>
